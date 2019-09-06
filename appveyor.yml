@@ -9,8 +9,8 @@ environment:
 install:
  - choco install wixtoolset
 
-build:
-  project: %solution_name%
+build_script:
+  - msbuild %solution_name%
 
 artifacts:
     - path: x64\Release\*.*

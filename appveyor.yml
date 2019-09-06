@@ -6,6 +6,8 @@ install:
 
 build:
   project: PowerToys.sln
+  project: installer/PowerToysSetup.sln
 
 artifacts:
     - path: x64\Release\*.*
+    - path: installer\PowerToysSetup\x64\Release\*.*

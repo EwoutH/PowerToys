@@ -2,7 +2,7 @@ image: Visual Studio 2019
 configuration: Release
 
 build:
-  project: vmaf.sln
+  project: PowerToys.sln
 
 artifacts:
     - path: x64\Release\*.*

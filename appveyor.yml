@@ -3,14 +3,14 @@ configuration: Release
 
 environment:
   matrix:
-  - solution_name: solution1.sln
-  - solution_name: solution2.sln
+  - solution: PowerToys.sln
+  - solution: installer/PowerToysSetup.sln
 
 install:
  - choco install wixtoolset
 
 build_script:
-  - msbuild %solution_name%
+  - msbuild %solution%
 
 artifacts:
     - path: x64\Release\*.*

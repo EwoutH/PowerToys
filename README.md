@@ -1,4 +1,4 @@
-# Overview
+# Overview [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/microsoft/PowerToys?branch=master&svg=true)](https://ci.appveyor.com/project/microsoft/PowerToys)
 
 PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity.  
 

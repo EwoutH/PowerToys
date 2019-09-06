@@ -1,12 +1,16 @@
 image: Visual Studio 2019
 configuration: Release
 
+environment:
+  matrix:
+  - solution_name: solution1.sln
+  - solution_name: solution2.sln
+
 install:
  - choco install wixtoolset
 
 build:
-  project: PowerToys.sln
-  project: installer/PowerToysSetup.sln
+  project: %solution_name%
 
 artifacts:
     - path: x64\Release\*.*
